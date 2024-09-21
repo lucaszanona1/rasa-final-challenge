@@ -1,8 +1,10 @@
 # rasa-final-challenge
 
+*Launch*
+
 https://mybinder.org/v2/gh/lucaszanona1/rasa-final-challenge/HEAD
 
-Enunciado: 
+*Enunciado:* 
 
 Imagine que você faz parte de uma equipe de desenvolvedores/as de uma grande empresa. Nessa empresa, iniciou-se um projeto para criar um chatbot que tem como objetivo ajudar em dúvidas gerais de usuários de uma plataforma de ensino, portanto, estudantes.  
 
