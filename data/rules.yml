@@ -1,0 +1,24 @@
+version: "3.1"
+
+rules:
+
+- rule: Dizer ola
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+
+- rule: alugar um livro
+  steps:
+  - intent: alugar_livro
+  - action: utter_alugar_livro
+
+- rule: especificar livro
+  steps:
+  - intent: especificar_livro
+  - action: utter_especificar_livro
+
+- rule: devolver livro
+  steps:
+  - intent: devolver_livro
+  - action: utter_devolver_livro
+

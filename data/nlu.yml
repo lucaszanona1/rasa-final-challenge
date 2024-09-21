@@ -1,0 +1,21 @@
+version: "3.1"
+
+nlu:
+- intent: saudar
+  examples: |
+    - oi
+    - ola
+    - eai
+
+- intent: alugar_livro
+  examples: |
+    - Gostaria de alugar um livro
+
+- intent: especificar_livro
+  examples: |
+    - Alugar o livro {livro}
+
+- intent: devolver_livro
+  examples: |
+    - Gostaria de devolver o livro {livro}
+

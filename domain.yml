@@ -1,0 +1,40 @@
+version: "3.1"
+
+intents:
+  - saudar
+  - alugar_livro
+  - devolver_livro
+  - especificar_livro
+
+entities:
+  - livro
+
+slots:
+    livro:
+        type: text
+        mappings:
+            - type: from_entity
+              entity: livro
+
+responses:
+  utter_saudar:
+  - text: "Olá! Gostaria de alugar um livro?"
+
+  utter_alugar_livro:
+  - text: "Claro, qual o nome do livro desejado?"
+
+  utter_devolver_livro:
+  - text: "Certo, {livro} devolvido!"
+
+  utter_especificar_livro:
+  - text: "Ótimo, {livro} saindo do forno para você!"
+
+actions:
+    - utter_saudar
+    - utter_alugar_livro
+    - utter_devolver_livro
+    - utter_especificar_livro
+
+session_config:
+  session_expiration_time: 60
+  carry_over_slots_to_new_session: true

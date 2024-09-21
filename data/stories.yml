@@ -1,0 +1,15 @@
+version: "3.1"
+
+stories:
+
+- story: happy path
+  steps:
+  - intent: saudar
+  - action: utter_saudar
+  - intent: alugar_livro
+  - action: utter_alugar_livro
+  - intent: especificar_livro
+  - action: utter_especificar_livro
+  - intent: devolver_livro
+  - action: utter_devolver_livro
+
